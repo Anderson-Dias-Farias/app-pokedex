@@ -38,7 +38,7 @@ useEffect(() => {
 //console.log(Poke)
   return (
     <main className="" >
-      <div className="flex min-h-screen justify-center flex-wrap gap-10 ">
+      <div className="flex min-h-screen w-screen justify-center flex-wrap gap-10 ">
         <Header/>
         {N != 0 ? <CardRaper res={Poke as ApiResposta1[]}/> : ""}
       </div> 
