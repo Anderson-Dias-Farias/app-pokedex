@@ -35,7 +35,7 @@ useEffect(() => {
 }, [N])
 
 
-console.log(Poke)
+//console.log(Poke)
   return (
     <main className="" >
       <div className="flex min-h-screen justify-center flex-wrap gap-10 ">
