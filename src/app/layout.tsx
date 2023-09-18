@@ -1,3 +1,5 @@
+
+import { GlobalContextProvider } from '@/Components/Context/store'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -16,7 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+      
+        <GlobalContextProvider>
+         {children}
+        </GlobalContextProvider>
+        </body>
     </html>
   )
 }

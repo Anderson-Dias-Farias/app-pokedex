@@ -1,0 +1,28 @@
+.teste{
+
+    width: 100%;
+    height: 80%;
+    max-width: 280px;
+    max-height: 384px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 1s; 
+
+    
+    
+}
+.teste:hover{
+    transform: none;        
+}
+
+.L{
+    transform: perspective(5.5cm)  rotateY(30deg);
+}
+
+.R{
+    transform: perspective(5.5cm)  rotateY(-30deg);
+}
